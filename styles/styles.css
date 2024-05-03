@@ -21,6 +21,11 @@ main img{
     box-shadow: 0 0 30px gray;
 }
 
+main {
+    max-width: 800px;
+}
+
+
 aside {
     width: 20rem;
     margin: 1rem;
