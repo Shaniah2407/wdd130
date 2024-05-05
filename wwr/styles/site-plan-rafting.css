@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #1791C8;
+    --secondary-color: #1F5E91;
+    --accent1-color: #1C594F;
+    --accent2-color: #2CA894;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #1F5E91;
+    --nav-link-color: #FFFFFF;
+    --nav-hover-link-color: #50ffff;
+    --nav-hover-background-color: #1791C8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited{
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
