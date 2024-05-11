@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400..700;1,400..700&family=Kurale&family=Pacifico&family=Permanent+Marker&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body{
+    margin: 0;
+    font-family: var(--paragraph-font);
+    max-width: 1920px;
+    padding: 20px;
+}
+
+:root {
+    --primary-color: #1791C8;
+    --secondary-color: #1F5E91;
+    --accent1-color: #1C594F;
+    --accent2-color: #2CA894;
+
+    --heading-font: 'Playfair Display', serif;
+    --paragraph-font: 'Arial', sans-serif;
+
+    --nav-background-color: #1F5E91;
+    --nav-link-color: #444444;
+    --nav-hover-link-color: #50ffff;
+    --nav-hover-background-color: #1791C8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+a{
+    text-decoration: none;
+    color: var(--nav-link-color);
+}
+
+.hero{
+    position: relative;
+    text-align: center;
+}
+
+.hero img{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.hero h1{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.hero article{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    background-color: rgb(31, 94, 145, 0.6);
+    
+}
+
+.hero article img{
+    float: right;
+    margin-left: 20px;
+    width: 200px;
+}
