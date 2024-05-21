@@ -9,9 +9,7 @@ body{
     box-sizing: border-box;
 }
 
-header, 
-.grid,
-footer{
+header, .grid, footer{
     max-width: 840px;
     margin: 0 auto;
 }
