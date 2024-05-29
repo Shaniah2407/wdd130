@@ -14,7 +14,7 @@ body{
 }
 
 :root {
-    --primary-color: #1791C8;
+    --primary-color: #0B4560;
     --secondary-color: #1F5E91;
     --accent1-color: #1C594F;
     --accent2-color: #2CA894;
@@ -220,12 +220,17 @@ footer {
 
 footer p {
     margin-left: 360px;
-    color: #fff;
+    color: #ffffff;
 }
 
 footer .sociallinks img {
     width: 20px;
     height: 24px;
+    border-radius: 50px;
+}
+
+footer .sociallinks img:hover{
+    background-color: var(--nav-hover-background-color);
 }
 
 .contact-page {
@@ -386,7 +391,7 @@ footer .sociallinks img {
     margin-top: 15px;
     padding: 10px 20px;
     background-color: var(--primary-color);
-    color: white;
+    color: #FFFFFF;
     border: none;
     border-radius: 5px;
     cursor: pointer;
