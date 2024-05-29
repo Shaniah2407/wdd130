@@ -229,10 +229,6 @@ footer .sociallinks img {
     border-radius: 50px;
 }
 
-footer .sociallinks img:hover{
-    background-color: var(--nav-hover-background-color);
-}
-
 .contact-page {
     display: flex;
     flex-direction: column;
