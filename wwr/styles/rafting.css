@@ -235,6 +235,11 @@ footer .sociallinks img {
     padding: 20px;
 }
 
+.contact-page h1{
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
 .employee-profiles {
     text-align: center;
     margin-bottom: 50px;
